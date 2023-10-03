@@ -30,7 +30,7 @@ define Package/go-example/description
 endef
 
 define Build/Prepare
-	$(CP) ./* $(PKG_BUILD_DIR)
+	$(CP) ./src/* $(PKG_BUILD_DIR)
 endef
 
 define Package/go-example/install
