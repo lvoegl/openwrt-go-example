@@ -21,7 +21,6 @@ define Package/go-example
 	CATEGORY:=Utilities
 	TITLE:=Go Example
 	DEPENDS:=$(GO_ARCH_DEPENDS)
-	PKGARCH:=all
 endef
 
 define Package/go-example/description
